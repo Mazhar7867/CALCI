@@ -1,0 +1,36 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.box{
+    border: 1px solid black;
+   border-radius: 7%;
+    background-color: black;
+   height: 300px;
+}
+.display{
+    padding: 20px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.742);
+    border-bottom: 2px solid rgba(245, 222, 179, 0.436);
+}
+.btn1{
+
+    margin-top: 3px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap: 7px;
+    padding:5px;
+}
+.btn{
+    border: none;  
+    height: 35px; 
+    border-radius: 5%;
+    width: 60px;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.284)
+}
